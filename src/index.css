@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom class can be made this way and directly used in element  */
+@layer components{
+   .align-element{
+    @apply mx-auto px-8 max-w-7xl 
+   }
+}
